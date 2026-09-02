@@ -1,0 +1,5 @@
+"rebase
+- Rebase do not creates a new commit that combines the changes from both branches.
+- Rebase rewrites the history of the first branch, it will bring all the commits from source branch and place it to the tip of
+the destination branch. (Commit history usually will become a linear and cleaner tree)
+- Rebases do not create merge conflicts, but they can make it difficult to track the history of your repository."
